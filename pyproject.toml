@@ -1,0 +1,6 @@
+[project]
+name = "polaris-test"
+version = "0.1.0"
+description = "Polaris research project: test"
+requires-python = ">=3.12"
+dependencies = []
