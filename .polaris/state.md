@@ -27,3 +27,15 @@ Project initialized on 2026-02-22.
   - Low quality (≤50 species): 24 participants (0.2%, vs 0.0% with ≤20 threshold)
 - report.ipynb: curated_phenotypes/gut_microbiome_diversity/2026-02-22_17-54/report.ipynb
 - commit_hash: b35cb74
+
+### Phase 3: Validate — completed
+- validation.ipynb: curated_phenotypes/gut_microbiome_diversity/2026-02-22_17-54/validation.ipynb
+- Validation results:
+  - Gate 1 (Correctness): PASS — All 4 metrics (Shannon, Simpson, Chao1, observed species) match within floating-point tolerance
+  - Gate 2 (QC gates): FAIL — 3 minor issues:
+    - Chao1 max (2068) slightly exceeds expected upper bound (2000)
+    - 1 participant not found in population table
+    - Quality threshold (>50 species) correctly applied: 24 low-quality samples (0.2%)
+  - Gate 3 (Citations): FAIL — 1 citation missing URL/DOI (9/10 have accessible links)
+  - Gate 4 (Reproducibility): PASS — Recomputed all metrics on 1000-participant sample, exact match
+- commit_hash: 07b27ae
