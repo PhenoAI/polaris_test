@@ -13,3 +13,9 @@ Project initialized on 2026-02-22.
 - manifest.md: curated_phenotypes/gut_microbiome_diversity/2026-02-22_17-54/manifest.md
 - mermaid.md: curated_phenotypes/gut_microbiome_diversity/2026-02-22_17-54/mermaid.md
 - commit_hash: f2b23d4
+
+### Phase 2: Build — completed
+- compute.py: curated_phenotypes/gut_microbiome_diversity/2026-02-22_17-54/compute.py
+- output_table: ds.polaris.gut_microbiome_diversity (12,302 participants)
+- report.ipynb: curated_phenotypes/gut_microbiome_diversity/2026-02-22_17-54/report.ipynb
+- commit_hash: 6b03b81
