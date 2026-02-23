@@ -16,4 +16,14 @@ Project initialized on 2026-02-22.
 
 ## Fork from Phase 1: alternative-metrics (source: main, 2026-02-23T13:38:00Z)
 
-> User instruction: Explore alternative diversity metrics (Simpson index, Chao1 richness estimator) alongside Shannon index for comparison.
+> User instruction: Explore alternative diversity metrics (Simpson index, Chao1 richness estimator) alongside Shannon index for comparison. Use quality threshold of >50 detected species for "Adequate" samples.
+
+### Phase 2: Build — completed
+- compute.py: curated_phenotypes/gut_microbiome_diversity/2026-02-22_17-54/compute.py
+- output_table: ds.polaris.gut_microbiome_diversity (12,302 participants, 6 features)
+  - Shannon index: mean=3.72, median=3.84
+  - Simpson index: mean=0.928, median=0.955
+  - Chao1 richness: mean=464.6, median=448 (~2.3x observed)
+  - Low quality (≤50 species): 24 participants (0.2%, vs 0.0% with ≤20 threshold)
+- report.ipynb: curated_phenotypes/gut_microbiome_diversity/2026-02-22_17-54/report.ipynb
+- commit_hash: b35cb74
