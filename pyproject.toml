@@ -3,4 +3,13 @@ name = "polaris-test"
 version = "0.1.0"
 description = "Polaris research project: test"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "databricks-sql-connector>=4.2.5",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+]
