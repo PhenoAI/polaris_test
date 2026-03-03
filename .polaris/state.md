@@ -12,3 +12,4 @@ Project initialized on 2026-02-22.
 ### Phase 1: Define — completed
 - manifest.md: curated_phenotypes/gut_microbiome_diversity/2026-03-03_20-30/manifest.md
 - mermaid.md: curated_phenotypes/gut_microbiome_diversity/2026-03-03_20-30/mermaid.md
+- commit_hash: 5382652
